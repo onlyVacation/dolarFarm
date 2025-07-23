@@ -1,8 +1,8 @@
 {
-  "name": "asuracomics-backend",
+  "name": "website-backend",
   "version": "0.0.1",
-  "description": "Initialize some functions in NEST",
-  "author": "ATSOC",
+  "description": "Backend usando NestJS",
+  "author": "LuLu",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -12,6 +12,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+    "start:ts": "ts-node src/main.ts",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
